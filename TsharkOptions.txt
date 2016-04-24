@@ -1,0 +1,6 @@
+-c 10000
+-t e
+-T fields
+-E separator=,
+-e ip.src -e ip.dst -e ip.proto -e frame.time_epoch -e tcp.len -e udp.length
+
